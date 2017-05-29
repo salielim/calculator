@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100');
+
+html {
+  height:100%;
+  background: radial-gradient(circle, #ECE9E6,#FFFFFF);
+}
+
+.calculator {
+  width: 320px;
+  height: 480px;
+  border: 3px solid rgba(255,255,255,0.3);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px rgba(255,255,255,0.3);
+  background: linear-gradient(#FFEEEE,#D4D3DD);
+  justify-content: center;
+  margin: 5% auto 5% auto;
+}
+
+#screen {
+  display: flex;
+  justify-content: center;
+  color: #7a7676;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 60px;
+  width: 295px;
+  height: 70px;
+  background-color: rgba(255,255,255,0.3);
+  margin: 20px 20px 0px 15px;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 5px 5px 5px 10px;
+}
+
+button {
+  width: 65px;
+  height: 65px;
+  margin: 5px 5px 5px 5px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 25px;
+  color: #7a7676;
+  background-color: Transparent;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+button:hover {
+  background:rgba(255,255,255,0.3);
+}
+
+#clear {
+  display: flex;
+  justify-content: flex-end;
+  flex: 0 1 100%;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 20px;
+  padding: 0px 30px 0px 0px;
+}
