@@ -1,1 +1,1 @@
-Simple calculator. A calculator to add, subtract, multiply and divide numbers. Chain mathematical operations together and press the equal button for the correct output. For demo, visit https://salielim.github.io/simple-calculator.
+Simple calculator. A calculator to add, subtract, multiply and divide numbers. Chain mathematical operations together and press the equal button for the correct output. For demo, visit https://salielim.github.io/calculator.
